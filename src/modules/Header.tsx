@@ -69,12 +69,12 @@ const navLinks = [
 const AsideBlock = () => (
     <>
          <ListItem>
-            <IconBody href="/likes" title="likes" aria-label="Лайки (Ссылка не рабочая. Грустный смайлик)">
+            <IconBody href="/likes" title="likes" aria-label="Перейти в избранное">
                 <HeartIcon/>
             </IconBody>
          </ListItem>
          <ListItem>
-            <IconBody href="/cart" title="cart" aria-label="Лайки (Ссылка не рабочая. Грустный смайлик)">
+            <IconBody href="/cart" title="cart" aria-label="Перейти в корзину">
                 <CartIcon/>
             </IconBody>
          </ListItem>

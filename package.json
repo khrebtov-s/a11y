@@ -1,6 +1,7 @@
 {
   "name": "a11y-homework",
   "version": "0.1.0",
+  "homepage": "https://khrebtov-s.github.io/a11y-homework",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -19,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
   "devDependencies": {
     "@types/node": "^20.1.4",
     "@types/uuid": "^9.0.1",
+    "gh-pages": "^5.0.0",
     "svg-react-loader": "^0.4.6"
   }
 }
